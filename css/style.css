@@ -1,0 +1,37 @@
+
+.row .col-xs-12 section{
+    background-color: rgb(50, 110, 129);
+}
+
+.container-fluid{
+    background-color: rgb(50, 110, 129);
+    
+}
+
+.navbar-default .navbar-brand{
+    font-size: 2em;
+    color: white;
+}
+@media(max-width :767px){
+    .container-fluid .navbar-collapse{
+        background-color: rgb(32, 70, 82);
+    }
+    
+    
+}
+
+.container{
+    width: 95%;
+}
+p, h3, .text-center > a {
+    padding:0 10px 0 10px;
+    color: white;
+}
+.text-center > a{
+    font-size: 1.25em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.5em;
+    color: white;
+}
